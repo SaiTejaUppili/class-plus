@@ -9,7 +9,7 @@ import { Container, Row } from 'reactstrap';
 const SearchPage = (props) => {
   // const flickr = new Flickr(process.env.FLICKR_API_KEY);
   // console.log(process.env.FLICKR_API_KEY);
-  const key = '4d71162c1ece56ad858c3c3b62dfa891';
+  const key = '4d71162c1ece56ad858c3cxxxxxxxxxx'; // personal KEY
   const flickr = new Flickr(key);
 
   let imagesListDefault = [];
